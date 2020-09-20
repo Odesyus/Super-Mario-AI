@@ -1,0 +1,40 @@
+FireballSprite = pygame.image.load('Sprites/Fire1.png'),pygame.image.load('Sprites/Fire2.png'),pygame.image.load('Sprites/Fire3.png'),pygame.image.load('Sprites/Fire4.png'),
+win.blit(FireballSprite[(self.x+1)//2],(self.x,self.y))
+fireballs.append(Mariofireball(round(Mario.x + Mario.width//2),round(Mario.y + Mario.height//2),Mario.rightleft))
+
+
+
+ if self.x + self.vel < self.path[1]:
+                self.x += self.vel
+            else:
+                self.vel = self.vel * -1
+                self.WalkCount=0
+        else:
+            if self.x - self.vel > self.path[0]:
+                self.x += self.vel
+            else:
+                self.vel = self.vel * -1
+                self.WalkCount=0
+
+                if ((Platform.x - (Platform.width/2)) <= (Entity.x + (Entity.width/2)) and (Platform.x + (Platform.width/2)) >= (Entity.x + (Entity.width/2))):
+        pass
+
+
+
+a.save(os.path.join('./Test',"IMG-%s.png" % k))
+            k += 1 
+
+
+
+            if i == 0:
+                        x = 2 
+                    elif i == 1:
+                        x = 3
+                    elif i == 2:
+                        x = 4
+                    elif i == 3:
+                        x = 5
+                    else:
+                        i = 1
+
+                         or (float(Mario.Brain.predict()[0]) < float(0.350) )
